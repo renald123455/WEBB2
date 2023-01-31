@@ -1,0 +1,58 @@
+.navbar {
+    padding-top: 5px;
+    background-color: lightslategray;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    background-image: url(../img/jumbotron-bg.jpg);
+    background-size: cover;
+    background-position: 0 -100;
+    height: 400px;
+}
+
+.jumbotron h1 {
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron p {
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+section {
+    min-height: 420px;
+}
+
+hr {
+    width: 20%;
+    border-top: 3px solid #222;
+}
+
+.portfolio {
+    background-color: #e9ecef;
+}
+
+footer {
+    background-color: #e9ecef;
+}
+
+footer p {
+    font-size: 11px;
+}
+
+/* Desktop Version*/
+@media (min-width: 992px) {
+    .jumbotron {
+        min-height: 600px;
+    }
+
+    section {
+        min-height: 400px;
+    }
+}
